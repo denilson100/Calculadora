@@ -16,7 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0DC0F0D01CF4EFD300733E55 /* Aula6_Calculadora.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Aula6_Calculadora.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DC0F0D01CF4EFD300733E55 /* Calculadora.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calculadora.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DC0F0D41CF4EFD300733E55 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0DC0F0D61CF4EFD300733E55 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0DC0F0D71CF4EFD300733E55 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -50,7 +50,7 @@
 		0DC0F0D11CF4EFD300733E55 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0DC0F0D01CF4EFD300733E55 /* Aula6_Calculadora.app */,
+				0DC0F0D01CF4EFD300733E55 /* Calculadora.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -82,9 +82,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		0DC0F0CF1CF4EFD300733E55 /* Aula6_Calculadora */ = {
+		0DC0F0CF1CF4EFD300733E55 /* Calculadora */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0DC0F0E71CF4EFD300733E55 /* Build configuration list for PBXNativeTarget "Aula6_Calculadora" */;
+			buildConfigurationList = 0DC0F0E71CF4EFD300733E55 /* Build configuration list for PBXNativeTarget "Calculadora" */;
 			buildPhases = (
 				0DC0F0CC1CF4EFD300733E55 /* Sources */,
 				0DC0F0CD1CF4EFD300733E55 /* Frameworks */,
@@ -94,9 +94,9 @@
 			);
 			dependencies = (
 			);
-			name = Aula6_Calculadora;
+			name = Calculadora;
 			productName = Aula6_Calculadora;
-			productReference = 0DC0F0D01CF4EFD300733E55 /* Aula6_Calculadora.app */;
+			productReference = 0DC0F0D01CF4EFD300733E55 /* Calculadora.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -113,7 +113,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 0DC0F0CB1CF4EFD300733E55 /* Build configuration list for PBXProject "Aula6_Calculadora" */;
+			buildConfigurationList = 0DC0F0CB1CF4EFD300733E55 /* Build configuration list for PBXProject "Calculadora" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -126,7 +126,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0DC0F0CF1CF4EFD300733E55 /* Aula6_Calculadora */,
+				0DC0F0CF1CF4EFD300733E55 /* Calculadora */,
 			);
 		};
 /* End PBXProject section */
@@ -264,7 +264,7 @@
 				INFOPLIST_FILE = Aula6_Calculadora/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "br.edu.infnet.Aula6-Calculadora";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Calculadora;
 			};
 			name = Debug;
 		};
@@ -275,14 +275,14 @@
 				INFOPLIST_FILE = Aula6_Calculadora/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "br.edu.infnet.Aula6-Calculadora";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Calculadora;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0DC0F0CB1CF4EFD300733E55 /* Build configuration list for PBXProject "Aula6_Calculadora" */ = {
+		0DC0F0CB1CF4EFD300733E55 /* Build configuration list for PBXProject "Calculadora" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0DC0F0E51CF4EFD300733E55 /* Debug */,
@@ -291,13 +291,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0DC0F0E71CF4EFD300733E55 /* Build configuration list for PBXNativeTarget "Aula6_Calculadora" */ = {
+		0DC0F0E71CF4EFD300733E55 /* Build configuration list for PBXNativeTarget "Calculadora" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0DC0F0E81CF4EFD300733E55 /* Debug */,
 				0DC0F0E91CF4EFD300733E55 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
